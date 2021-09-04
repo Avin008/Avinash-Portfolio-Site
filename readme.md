@@ -1,6 +1,6 @@
 # Avinash Portfolio Site
 
-hi.. this is Avinash, and this my personal portfolio in making.
+Hi.. this is Avinash, and this is my personal portfolio in making.
 
 Things i know for now -
 
