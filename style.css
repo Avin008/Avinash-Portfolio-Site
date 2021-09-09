@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #7c3aed;
+  --secondary-color: gray;
+  --offwhite: #f3f4f6;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/** navbar **/
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding-inline-start: 0rem;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+}
+
+.nav-list {
+  text-align: right;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-img {
+  max-width: 500px;
+}
+
+.header-image {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.offwhite {
+  background-color: var(--offwhite);
+}
+
+.container {
+  padding: 1rem 0rem;
+}
+
+.container-center {
+  text-align: center;
+  margin: auto;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  padding-inline-start: 0;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-header {
+  color: white;
+}
+
+.section {
+  padding: 3rem;
+}
+
+.hero-header {
+  max-width: 300px;
+}
