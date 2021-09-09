@@ -86,3 +86,7 @@ body {
 .header-text {
   color: var(--primary-color);
 }
+
+.footer ul {
+  padding-inline-start: 0px;
+}
