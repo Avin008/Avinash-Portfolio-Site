@@ -80,5 +80,9 @@ body {
 }
 
 .hero-header {
-  max-width: 300px;
+  max-width: 320px;
+}
+
+.header-text {
+  color: var(--primary-color);
 }
