@@ -8,6 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 /** navbar **/
@@ -57,6 +58,7 @@ body {
 .container-center {
   text-align: center;
   margin: auto;
+  padding-inline-start: 0px;
 }
 
 .footer {
@@ -67,12 +69,15 @@ body {
 }
 
 .footer-links {
-  text-decoration: none;
+  list-style: none;
   color: white;
+  display: inline;
+  padding: 0.5rem;
 }
 
 .footer-header {
   color: white;
+  font-weight: bold;
 }
 
 .section {
@@ -87,6 +92,15 @@ body {
   color: var(--primary-color);
 }
 
-.footer ul {
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .footer-items {
   padding-inline-start: 0px;
+}
+
+.nav-brand {
+  font-weight: bold;
 }
