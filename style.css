@@ -82,7 +82,7 @@ body {
 }
 
 .section {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .hero-header {
@@ -108,13 +108,31 @@ body {
 
 .primary-link {
   text-decoration: none;
+  max-width: 140px;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 1rem;
-  padding: 0.5rem;
   color: white;
 }
 
 p {
   padding-bottom: 1rem;
+}
+
+.secondary-link {
+  text-decoration: none;
+  max-width: 140px;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.nav-brand {
+  font-size: 1.2rem;
+  padding-left: 1rem;
 }
