@@ -103,7 +103,7 @@ body {
 }
 
 .nav-brand {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .primary-link {
@@ -135,4 +135,13 @@ p {
 .nav-brand {
   font-size: 1rem;
   padding-left: 0.5rem;
+}
+
+.heading {
+  padding: 4rem;
+  font-weight: bold;
+}
+
+span {
+  color: var(--primary-color);
 }
