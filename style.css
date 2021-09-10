@@ -83,10 +83,12 @@ body {
 
 .section {
   padding: 2rem;
+  border-radius: 1rem;
 }
 
 .hero-header {
-  max-width: 300px;
+  max-width: 320px;
+  font-size: 2rem;
 }
 
 .header-text {
@@ -135,4 +137,8 @@ p {
 .nav-brand {
   font-size: 1rem;
   padding-left: 0.5rem;
+}
+
+span {
+  color: var(--primary-color);
 }
