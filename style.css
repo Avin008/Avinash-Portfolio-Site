@@ -142,3 +142,7 @@ p {
 span {
   color: var(--primary-color);
 }
+
+.fab {
+  font-size: 1.5rem;
+}
