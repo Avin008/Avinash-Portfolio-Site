@@ -157,4 +157,5 @@ ul {
 .section a {
   display: block;
   margin: auto;
+  padding: 0.5rem;
 }
