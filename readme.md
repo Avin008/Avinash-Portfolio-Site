@@ -1,9 +1,18 @@
 # Avinash Portfolio Site
 
-Hi.. this is Avinash, and this is my personal portfolio in making.
+Hi there! I am Avinash Mahananda and this is my personal portfolio website.
 
-Things i know for now -
+I am learning web development with JavaScript and Git/GitHub.
 
-1. Javascript
-1. NodeJs
-1. Git
+Technologies I know:
+
+HTML/CSS
+JavaScript
+Git/GitHub
+NodeJS
+Chalk (npm library)
+Readline-Sync (npm library)
+
+
+
+
