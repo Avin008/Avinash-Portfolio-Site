@@ -23,11 +23,11 @@
   list-style: none;
   display: inline-block;
   padding: 0 0.2rem;
-  color: #677579;
 }
 
 .links {
   text-decoration: none;
+  color: #677579;
 }
 
 #footer-menu {
