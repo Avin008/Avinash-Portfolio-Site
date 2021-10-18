@@ -1,183 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
 :root {
-  --primary-color: #7c3aed;
-  --secondary-color: gray;
-  --offwhite: #f3f4f6;
+  --primary: #515e7b;
+  --secondary: #f6c453;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
-
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  font-size: 1rem;
+.container {
+  text-align: center;
+  margin: 1.5rem;
 }
 
-.navbar {
-  background-color: var(--primary-color);
-  color: white;
-  padding-inline-start: 0rem;
-  border-bottom-left-radius: 1rem;
-  padding: 1rem 1.5rem;
+.fab {
+  font-size: 2rem;
+  padding: 0 0.2rem;
 }
 
-.nav-links {
+.footer {
+  text-align: center;
+}
+
+.footer-items {
   list-style: none;
-  display: inline;
-  padding: 1rem;
-}
-
-.nav-list {
-  text-align: right;
+  display: inline-block;
+  padding: 0 0.2rem;
 }
 
 .links {
   text-decoration: none;
-  color: white;
 }
 
-.hero-img {
-  max-width: 300px;
-}
-
-.header-image {
-  text-align: center;
-}
-
-.header {
-  text-align: center;
-}
-
-.offwhite {
-  background-color: var(--offwhite);
-}
-
-.container {
-  padding: 1rem;
-}
-
-.footer {
-  background-color: var(--primary-color);
+#footer-menu {
   padding-inline-start: 0;
-  border-top-right-radius: 1rem;
-  padding: 2.5rem 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#img-header {
   text-align: center;
-}
-
-.footer-links {
-  list-style: none;
-  color: white;
-  display: inline;
-  padding: 0.5rem;
-}
-
-.footer-header {
-  color: white;
-  font-weight: bold;
-}
-
-.section {
-  padding: 2rem;
-  text-align: center;
-  border-radius: 1rem;
+  max-width: 20rem;
+  max-height: 10%;
   margin: auto;
-}
-
-.hero-header {
-  max-width: 320px;
-  font-size: 2rem;
-  text-align: center;
-  margin: auto;
-}
-
-.header-text {
-  color: var(--primary-color);
-}
-
-.footer-link {
-  color: white;
-  text-decoration: none;
-}
-
-.footer .footer-items {
-  padding-inline-start: 0px;
-}
-
-.nav-brand {
-  font-weight: bold;
-}
-
-.primary-link {
-  text-decoration: none;
-  max-width: 120px;
-  margin: 1rem;
-  padding: 0.6rem 0.5rem;
-  border-radius: 2rem;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-  background-color: var(--primary-color);
-  color: white;
-  display: block;
 }
 
 p {
-  padding-bottom: 1rem;
+  max-width: 80%;
+  margin: 1rem auto;
 }
 
-.secondary-link {
+.button-container {
+  margin: 2rem;
+}
+
+.button-container a {
+  background-color: #014073;
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border-radius: 0.8rem;
   text-decoration: none;
-  max-width: 120px;
-  padding: 0.6rem 0.5rem;
-  border-radius: 2rem;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-  display: block;
+  color: white;
+  font-weight: 500;
 }
 
-.nav-brand {
-  font-size: 1rem;
-  padding-left: 0.5rem;
+.button-container .secondary {
+  background-color: gray;
+  color: black;
+  font-weight: 500;
 }
 
-span {
-  color: var(--primary-color);
-}
-
-.fab {
-  font-size: 1.5rem;
-}
-
-.heading {
-  padding: 2rem 0;
-}
-ul {
-  padding-inline-start: 0%;
-}
-
-.active {
-  font-weight: bold;
-}
-
-.secondary-link,
-.primary-link {
-  margin: 0.5rem auto;
-}
-
-.blog-heading {
-  text-decoration: underline;
-  font-size: 1.2rem;
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
 small {
   color: red;
-  font-size: 1rem;
 }
 
-h1 {
-  text-align: center;
+section {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: #677579 2px solid;
+  margin: 1rem;
 }
 
-.contain {
-  max-width: 80%;
-  margin: auto;
-  text-align: center;
+#footer-brand {
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  text-align: right;
+  padding-inline-start: 0;
+}
+
+.nav-items {
+  display: inline-block;
+  margin: 0.2rem 1.5rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.active {
+  border-bottom: 3px solid #014073;
+  padding-bottom: 0.5rem;
+}
+
+.fa-html5 {
+  color: #e96228;
+}
+
+.fa-css3-alt {
+  color: #2862e9;
+}
+
+.fa-git {
+  color: #3f2e00;
+}
+
+.fa-js-square {
+  color: #efd81d;
+}
+
+.fa-node {
+  color: #313131;
+}
+
+.fa-react {
+  color: #5ed3f3;
+}
+
+p {
+  font-weight: 400;
 }
