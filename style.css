@@ -59,16 +59,16 @@ p {
   background-color: #014073;
   padding: 0.5rem 1rem;
   margin: 0 0.3rem;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
 
 .button-container .secondary {
-  background-color: gray;
-  color: black;
-  font-weight: 500;
+  background-color: transparent;
+  color: #014073;
+  border: 1px solid #014073;
 }
 
 body {
